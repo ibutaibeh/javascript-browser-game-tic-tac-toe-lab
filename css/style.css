@@ -3,6 +3,9 @@ body {
   /* Use a system font, if none are available use an available sans-sarif */
   font-family: system-ui, sans-serif;
   margin: 0;
+  place-items: center;
+
+
   }
 
 .board {
@@ -17,4 +20,9 @@ body {
   border: 3px solid black;
   font-size: 64px;
   text-align: center;
+
+}
+
+#resetGame{
+  background-color: rgb(253, 253, 253);
 }
